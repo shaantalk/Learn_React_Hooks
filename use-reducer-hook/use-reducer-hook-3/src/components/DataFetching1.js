@@ -19,6 +19,7 @@ function DataFetching1() {
         setError("Something went wrong !");
       });
   }, []);
+
   return (
     <div>
       {loading ? "Loading" : post.title}
